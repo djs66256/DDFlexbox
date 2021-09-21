@@ -1,0 +1,44 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Example' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'DDFlexbox/Objc', :path=>'../'
+  pod 'SnapKit'
+
+  # Pods for Example
+
+  target 'ExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ExampleUITests' do
+    # Pods for testing
+  end
+
+end
+
+
+
+target 'FlexboxSwift' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'DDFlexbox', :path=>'../'
+  pod 'SnapKit'
+
+  # Pods for Example
+
+  target 'FlexboxSwiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FlexboxSwiftUITests' do
+    # Pods for testing
+  end
+
+end
