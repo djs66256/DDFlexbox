@@ -1,10 +1,10 @@
 PODS:
-  - DDFlexbox (0.0.1):
-    - DDFlexbox/Swift (= 0.0.1)
+  - DDFlexbox (1.0.0):
+    - DDFlexbox/Swift (= 1.0.0)
     - Yoga (~> 1.14)
-  - DDFlexbox/Objc (0.0.1):
+  - DDFlexbox/Objc (1.0.0):
     - Yoga (~> 1.14)
-  - DDFlexbox/Swift (0.0.1):
+  - DDFlexbox/Swift (1.0.0):
     - Yoga (~> 1.14)
   - SnapKit (5.0.1)
   - Yoga (1.14.0)
@@ -24,7 +24,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DDFlexbox: fdce4f545d41c91841661e011773bdf74f557be1
+  DDFlexbox: b22ed108bdc8033977b9e4e63e69624134bcf829
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
 

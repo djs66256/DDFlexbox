@@ -81,6 +81,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/djs66256/DDFlexbox.git", :tag => "#{spec.version}" }
 
+  spec.swift_version = "4.2"
   spec.default_subspecs = "Swift"
   
   spec.subspec "Objc" do |s|
@@ -93,11 +94,7 @@ Pod::Spec.new do |spec|
   
   
   spec.subspec "Swift" do |s|
-
     s.source_files  = "Classes", "Classes/swift/**/*.{swift}"
-
-    s.public_header_files = "Classes/objc/**/*.swift"
-    s.private_header_files = "Classes/objc/Private/*.h"
   end
 
   # spec.framework  = "SomeFramework"
